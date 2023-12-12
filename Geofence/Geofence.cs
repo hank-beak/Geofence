@@ -105,7 +105,7 @@ namespace Geofence
 			{
 				mondayOfWeek = mondayOfWeek.AddDays(-1);
 			}
-			for (DateTime currentDate = mondayOfWeek; currentDate <= weekData.Max(v => v.EnterTime).Date; currentDate = currentDate.AddDays(1))
+			for (DateTime currentDate = mondayOfWeek; currentDate.DayOfWeek <= DayOfWeek.Friday; currentDate = currentDate.AddDays(1))
 			{
 				if (currentDate.DayOfWeek <= DayOfWeek.Friday)
 				{
