@@ -8,7 +8,7 @@ The project parses geofence data in CSV format and calculates the hours of avera
 
 ### Prerequisites
 
-To run the Todo API, you need to have the following tools installed on your machine.
+To run this project, you need to have the following tools installed on your machine.
 
 - [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or a different IDE of your choice
